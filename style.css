@@ -48,15 +48,27 @@ section{
 .experience{
     box-shadow: 10px 10px 40px gray;
     height: 60%;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color: white;
 }
 .back{
     background-image:url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-}
+} 
 #big{
-    border-left: 10px solid black;
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, pink);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(pink, salmon);
+    border-image-slice: 1;
+}
+.center{
+    text-align: center;
+
 }
 footer{
     text-align: center;
